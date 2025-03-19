@@ -2,6 +2,7 @@ package io.github.jonasvlima.arquiteturaspring.montadora.configuration;
 
 import io.github.jonasvlima.arquiteturaspring.montadora.Motor;
 import io.github.jonasvlima.arquiteturaspring.montadora.TipoMotor;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Primary;
